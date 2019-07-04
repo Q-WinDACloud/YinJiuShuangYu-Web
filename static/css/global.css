@@ -1,0 +1,44 @@
+p,ul,li,h1,h2,h3,h4,h5,h6,input,textarea,body,dl,dt,dd {
+  padding: 0;
+  margin: 0;
+}
+img {
+  display: block;
+}
+a {
+  text-decoration: none;
+  color: #9b9b9b;
+}
+ul li {
+  list-style: none;
+}
+*:focus {
+  outline: none;
+}
+body,html {
+  font-size: 18px;
+  color: #262626;
+  background: #fff;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  font-family: Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, sans-serif;
+}
+
+#app{
+  margin: 0 auto;
+}
+.globalStyle{
+  width: 1200px;
+  margin: 0 auto;
+}
+@media (max-width: 1092px){
+  #app{
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .globalStyle{
+    width: 1150px;
+    margin: 0 auto;
+  }
+}
